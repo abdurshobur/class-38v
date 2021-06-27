@@ -1,0 +1,70 @@
+header a{
+   text-decoration: none;
+}
+header  li a{
+    text-transform: capitalize;
+}
+ul li{
+    display: inline-block;
+    margin-right: 8px; 
+}
+.blog{
+    background: url(bg-img.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+
+ 
+}
+.blog p{
+    padding: 300px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/* about_sec */
+.about_sec{}
+.about_sec img{
+    width: 100%;
+}
+
+.about_sec .about_info p{
+   text-transform: capitalize;
+}
+.about_sec h2{
+    text-transform: capitalize;
+}
+iframe{
+    width: 100%;
+}
+
+/* contract-section */
+.contract_sec{}
+.contract_sec .contract-form{}
+.contract_sec .contract-form p {
+    margin: 10px 0 2px 0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.contract_sec .contract-form .subb{
+    margin: 10px 0 2px 0 !important;
+}
+
+footer{
+
+}
+@media (max-width:1000px) {
+    header  li a{
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    header  li {
+        display: block;
+    }
+    ul.float-lg-end {
+        float: left;
+        padding-left: 0;
+    }
+}
